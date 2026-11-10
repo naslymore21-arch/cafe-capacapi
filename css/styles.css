@@ -1,0 +1,482 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#2e241d;background:#fbf8f2;font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}.header{height:82px;padding:0 6.5%;display:flex;align-items:center;justify-content:space-between;background:#fbf8f2;position:sticky;top:0;z-index:20;box-shadow:0 5px 24px #25180b0b}.brand{display:flex;align-items:center;gap:12px}.brand-icon{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:#4d3928;color:#f7ead6;font-family:Georgia,serif;font-size:15px;letter-spacing:-1px}.brand b{display:block;font-family:"Playfair Display",serif;font-size:18px}.brand small{display:block;font-size:10px;letter-spacing:1.2px;color:#8b7968;margin-top:3px}.header nav{display:flex;gap:30px}.header nav a,.header-link{font-size:12px;font-weight:600;color:#574738}.header nav a:hover,.header-link:hover{color:#a56b37}.header-link span{padding-left:8px}.menu-toggle{display:none;border:0;background:none;font-size:25px;color:#493524}.hero{min-height:650px;height:min(760px,82vh);position:relative;background:url("../img/paisaje-pena.jpg") center 47%/cover;display:flex;align-items:center;color:white}.hero-shade,.visit-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(22,31,24,.78),rgba(22,31,24,.38) 55%,rgba(22,31,24,.08))}.hero-content{position:relative;margin-left:10%;max-width:600px;padding:60px 20px}.kicker,.eyebrow{font-size:10px;letter-spacing:2.4px;font-weight:700}.kicker{display:flex;align-items:center;gap:10px}.kicker span{height:1px;width:32px;background:#d4a56e}.hero h1,.visit h2{font:600 clamp(54px,7vw,88px)/1.04 "Playfair Display",serif;margin:22px 0}.hero-content>p:not(.kicker){font-size:16px;line-height:1.8;max-width:430px;color:#f2e9dd}.hero-buttons{display:flex;align-items:center;gap:27px;margin-top:32px}.btn{display:inline-block;padding:15px 22px;font-size:11px;font-weight:700;letter-spacing:.4px;border-radius:2px;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn-cream{background:#f5ead9;color:#3b2b1e}.btn-dark{background:#4d3928;color:#fff}.under-link{font-size:11px;color:#fff}.hero-caption{position:absolute;bottom:27px;right:7%;font-size:9px;letter-spacing:2px;color:#eee}.section{padding:105px 9%}.story{display:grid;grid-template-columns:1.05fr .95fr;gap:9%;align-items:center}.story-image{position:relative;height:500px}.story-image img{width:100%;height:100%;object-fit:cover}.image-stamp{position:absolute;right:-25px;bottom:35px;background:#f5ead9;color:#493524;padding:20px 25px;font:16px "Playfair Display",serif;line-height:1.4}.image-stamp b{font-size:24px}.eyebrow{color:#a8794e}.story h2,.section-head h2{font:600 clamp(38px,4.5vw,57px)/1.12 "Playfair Display",serif;margin:18px 0 25px}.story h2 em,.section-head h2 em,.visit h2 em{color:#a8794e;font-weight:500}.story-copy>p:not(.eyebrow){font-size:14px;line-height:1.95;color:#76685b}.inline-link{display:inline-block;margin-top:20px;font-size:12px;font-weight:700;border-bottom:1px solid #a8794e;padding-bottom:8px}.inline-link span{margin-left:16px}.coffee-section{background:#f1e9dc}.section-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:40px}.section-head h2{margin-bottom:0}.section-head>p{max-width:340px;font-size:13px;line-height:1.8;color:#76685b}.coffee-feature{display:grid;grid-template-columns:1.15fr .85fr;background:#fbf8f2;min-height:430px}.coffee-photo img{width:100%;height:100%;object-fit:cover}.coffee-detail{padding:42px 9%;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.round-mark{width:43px;height:43px;border-radius:50%;background:#eee1d0;display:grid;place-items:center;font-size:21px}.coffee-detail h3{font:600 28px "Playfair Display",serif;margin:20px 0 8px}.coffee-detail>p{font-size:13px;line-height:1.8;color:#76685b}.coffee-products{display:flex;gap:14px;margin:18px 0 24px;width:100%}.coffee-products div{width:50%;font-size:11px;font-weight:700}.coffee-products img{width:100%;height:100px;object-fit:cover;margin-bottom:8px}.flavors{padding-bottom:85px}.filter-row{display:flex;gap:9px;margin:25px 0 30px;flex-wrap:wrap}.filter{border:1px solid #ded2c3;background:transparent;color:#665342;padding:9px 17px;border-radius:30px;font:600 11px "DM Sans",sans-serif;cursor:pointer}.filter.active,.filter:hover{background:#4d3928;color:white;border-color:#4d3928}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.product-card{background:#fff;box-shadow:0 10px 35px #3827160b;transition:.25s}.product-card:hover{transform:translateY(-5px);box-shadow:0 15px 35px #38271618}.product-card img{width:100%;height:205px;object-fit:cover;display:block}.product-card div{padding:17px 18px 20px}.product-card small{font-size:9px;letter-spacing:1.7px;color:#a8794e;font-weight:700}.product-card h3{font:600 19px "Playfair Display",serif;margin:8px 0}.product-card p{font-size:11px;line-height:1.6;color:#88796b;margin:0}.note{font-size:10px;color:#97897b;margin-top:22px}.gallery{background:#f1e9dc}.gallery-grid{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:16px}.gallery-grid figure{margin:0;position:relative;height:310px;overflow:hidden}.gallery-grid .g-large{height:390px;grid-row:span 1}.gallery-grid img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.gallery-grid figure:hover img{transform:scale(1.04)}.gallery-grid figcaption{position:absolute;bottom:0;left:0;right:0;padding:35px 17px 17px;color:#fff;font:17px "Playfair Display",serif;background:linear-gradient(transparent,#17130f9c)}.visit{position:relative;min-height:460px;background:url("../img/pena-neblina.jpg") center 50%/cover;display:grid;place-items:center;text-align:center;color:#fff}.visit-overlay{background:#1d2b20a6}.visit-content{position:relative;padding:70px 20px}.visit .eyebrow{color:#e1c19d}.visit h2{font-size:clamp(39px,5vw,62px);margin:18px 0}.visit h2 em{color:#e6c39b}.visit-content>p:not(.eyebrow){font-size:13px;color:#eee2d4;margin-bottom:28px}.footer{padding:35px 8%;display:flex;align-items:center;justify-content:space-between;gap:20px}.footer>p{font-size:11px;color:#88796b}.footer>small{font-size:10px;color:#9b8e80}.footer .brand-icon{width:36px;height:36px}.footer .brand b{font-size:16px}@media(max-width:900px){.header{padding:0 5%}.header nav{gap:15px}.header nav a{font-size:11px}.section{padding:75px 6%}.product-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.header{height:70px}.header nav{display:none;position:absolute;top:70px;left:0;right:0;background:#fbf8f2;padding:20px 7%;flex-direction:column;gap:18px;box-shadow:0 15px 20px #0001}.header nav.open{display:flex}.header-link{display:none}.menu-toggle{display:block}.hero{height:690px;min-height:0;background-position:58% center}.hero-content{margin-left:3%;padding:35px 22px}.hero h1{font-size:57px}.hero-content>p:not(.kicker){font-size:14px}.hero-buttons{align-items:flex-start;flex-direction:column;gap:18px}.hero-caption{font-size:8px;right:5%}.story{grid-template-columns:1fr;gap:45px}.story-image{height:360px;margin-right:18px}.section-head{display:block}.section-head>p{margin-top:20px}.coffee-feature{grid-template-columns:1fr}.coffee-photo{height:270px}.coffee-detail{padding:35px 8%}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.product-card img{height:145px}.product-card div{padding:13px}.product-card h3{font-size:16px}.product-card p{font-size:10px}.gallery-grid{grid-template-columns:1fr 1fr;gap:12px}.gallery-grid figure,.gallery-grid .g-large{height:220px}.gallery-grid .g-large{grid-column:span 2;height:270px}.visit{min-height:420px}.footer{align-items:flex-start;flex-direction:column;padding:30px 7%;gap:13px}}
+.menu-groups{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:34px}
+.menu-group{background:#fff;padding:30px 32px;box-shadow:0 10px 35px #3827160b}
+.menu-group h3{font:600 25px "Playfair Display",serif;margin:0 0 18px;color:#4d3928}
+.menu-list{display:grid;grid-template-columns:1fr 1fr;column-gap:24px}
+.menu-item{padding:13px 0;border-bottom:1px solid #eee5da}
+.menu-item span{display:block;font:600 15px "Playfair Display",serif;color:#382d24}
+.menu-item small{display:block;font-size:10px;line-height:1.5;color:#8b7b6c;margin-top:4px}
+.shop-section{background:#f1e9dc}
+.shop-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.shop-card{background:#fbf8f2;box-shadow:0 10px 35px #3827160b}
+.shop-card img{width:100%;height:220px;object-fit:cover;display:block}
+.shop-card div{padding:17px 19px 20px}
+.shop-card small{font-size:9px;letter-spacing:1.7px;color:#a8794e;font-weight:700}
+.shop-card h3{font:600 20px "Playfair Display",serif;margin:8px 0}
+.shop-card p{font-size:11px;line-height:1.6;color:#88796b;margin:0}
+@media(max-width:900px){.shop-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.menu-groups{grid-template-columns:1fr;gap:16px}.menu-group{padding:24px 20px}.menu-list{grid-template-columns:1fr}.shop-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.shop-card img{height:145px}.shop-card div{padding:13px}.shop-card h3{font-size:16px}.shop-card p{font-size:10px}}
+
+/* Detalle artesanal para las tarjetas: conserva la estructura original */
+.product-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:26px}
+.product-card,.shop-card{position:relative;overflow:hidden;background:#fffaf1;border:1px solid #e5d7c2;border-radius:3px;box-shadow:0 8px 20px rgba(63,43,25,.09);transition:transform .25s ease,box-shadow .25s ease}
+.product-card:hover,.shop-card:hover{transform:translateY(-4px);box-shadow:0 15px 28px rgba(63,43,25,.15)}
+.product-card img,.shop-card img{width:100%;height:210px;object-fit:cover;display:block;border-bottom:4px solid #e4d2b7}
+.product-card div,.shop-card div{min-height:122px;padding:18px 19px 21px;background:linear-gradient(180deg,#fffaf1,#f8f0e3)}
+.product-card small,.shop-card small{display:inline-block;color:#6c744f;font-size:9px;font-weight:700;letter-spacing:1.8px;padding-bottom:6px;border-bottom:1px solid #c8b28f}
+.product-card h3,.shop-card h3{color:#493523;font:600 20px/1.2 "Playfair Display",serif;margin:9px 0 7px}
+.product-card p,.shop-card p{color:#81715e;font-size:11px;line-height:1.65;margin:0}
+.flavors{background:#faf6ee}
+.shop-section{background:#eee5d5;background-image:radial-gradient(rgba(129,101,66,.07) .7px,transparent .7px);background-size:8px 8px}
+.shop-card{background:#fffaf1}
+.shop-grid{gap:25px}
+.note{padding-left:13px;border-left:2px solid #9a805d;color:#796a57;line-height:1.7}
+@media(max-width:900px){.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:19px}.shop-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:19px}}
+@media(max-width:650px){.product-grid,.shop-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.product-card img,.shop-card img{height:145px}.product-card div,.shop-card div{min-height:116px;padding:13px 12px 15px}.product-card h3,.shop-card h3{font-size:16px}.product-card p,.shop-card p{font-size:10px}}
+
+
+/* Renovación artesanal de tarjetas: fotografía protagonista, marcos cálidos y ritmo visual */
+.flavors{
+  background:#f5efe4;
+  position:relative;
+}
+.flavors:before,.shop-section:before{
+  content:"";
+  display:block;
+  width:74px;
+  height:2px;
+  background:#a8875e;
+  margin:0 auto 34px;
+}
+.flavors .section-head,.shop-section .section-head{
+  max-width:1120px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.product-grid.menu-cards{
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:25px;
+}
+.product-card,.shop-card{
+  position:relative;
+  overflow:hidden;
+  border:1px solid #d9c8ae;
+  border-radius:4px;
+  background:#fbf6ec;
+  box-shadow:0 7px 18px rgba(63,43,25,.10);
+  transition:transform .28s ease,box-shadow .28s ease;
+}
+.product-card:after,.shop-card:after{
+  content:"";
+  position:absolute;
+  inset:7px;
+  border:1px solid rgba(255,250,239,.7);
+  pointer-events:none;
+}
+.product-card:hover,.shop-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 16px 28px rgba(63,43,25,.17);
+}
+.product-card img,.shop-card img{
+  display:block;
+  width:100%;
+  height:218px;
+  object-fit:cover;
+  border:0;
+  border-bottom:4px solid #b79a72;
+  filter:saturate(.96);
+}
+.product-card div,.shop-card div{
+  min-height:132px;
+  padding:18px 18px 21px;
+  background:linear-gradient(145deg,#fffaf1 0%,#f0e5d2 100%);
+}
+.product-card small,.shop-card small{
+  color:#64704e;
+  font-size:9px;
+  font-weight:700;
+  letter-spacing:2px;
+}
+.product-card h3,.shop-card h3{
+  color:#493523;
+  font:600 21px/1.2 "Playfair Display",serif;
+  margin:9px 0 7px;
+}
+.product-card p,.shop-card p{
+  color:#766650;
+  font-size:11px;
+  line-height:1.65;
+  margin:0;
+}
+.shop-section{
+  background:#e9dfce;
+  background-image:linear-gradient(rgba(255,255,255,.15),rgba(255,255,255,.15));
+}
+.shop-card div{
+  background:linear-gradient(145deg,#fffaf1 0%,#eee2ce 100%);
+}
+.note{
+  max-width:1120px;
+  margin:28px auto 0;
+  padding:10px 14px;
+  color:#766650;
+  border-left:2px solid #8c7755;
+  background:rgba(255,250,241,.55);
+  font-size:11px;
+}
+@media(max-width:900px){
+ .product-grid.menu-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+}
+@media(max-width:650px){
+ .product-grid.menu-cards,.shop-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+ .product-card img,.shop-card img{height:148px}
+ .product-card div,.shop-card div{min-height:116px;padding:13px 12px 15px}
+ .product-card h3,.shop-card h3{font-size:16px}
+ .product-card p,.shop-card p{font-size:10px}
+ .product-card:after,.shop-card:after{inset:5px}
+}
+
+
+/* Acabado cálido de cafetería rural: sin alterar portada ni navegación */
+.flavors{
+  background-color:#f3eadb;
+  background-image:
+    radial-gradient(circle at 12px 12px, rgba(133,103,65,.055) 1px, transparent 1.2px),
+    linear-gradient(135deg,rgba(255,255,255,.42),rgba(236,222,199,.22));
+  background-size:18px 18px,100% 100%;
+}
+.shop-section{
+  background-color:#e9ddc9;
+  background-image:
+    linear-gradient(90deg,rgba(255,255,255,.22),rgba(255,255,255,.04)),
+    repeating-linear-gradient(0deg,rgba(126,94,56,.025) 0px,rgba(126,94,56,.025) 1px,transparent 1px,transparent 7px);
+}
+.flavors .section-head,.shop-section .section-head{
+  position:relative;
+  padding-bottom:22px;
+}
+.flavors .section-head:after,.shop-section .section-head:after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:82px;
+  height:3px;
+  background:#8b704d;
+}
+.product-card,.shop-card{
+  border:1px solid #d8c5a8;
+  border-radius:5px;
+  background:#fbf4e8;
+  box-shadow:0 8px 18px rgba(67,47,28,.12);
+}
+.product-card:after,.shop-card:after{
+  inset:8px;
+  border:1px solid rgba(255,250,239,.82);
+}
+.product-card img,.shop-card img{
+  height:225px;
+  border-bottom:5px solid #b99a70;
+}
+.product-card div,.shop-card div{
+  background:linear-gradient(180deg,#fffaf1 0%,#f1e5d2 100%);
+  padding:19px 20px 22px;
+}
+.product-card small,.shop-card small{
+  color:#68734e;
+  letter-spacing:2px;
+}
+.product-card h3,.shop-card h3{
+  color:#493522;
+}
+.product-card p,.shop-card p{
+  color:#796951;
+}
+.product-card:hover,.shop-card:hover{
+  box-shadow:0 15px 28px rgba(67,47,28,.18);
+}
+.note{
+  background:rgba(255,250,241,.68);
+  border-left:3px solid #8c7655;
+  border-radius:0 4px 4px 0;
+  padding:12px 16px;
+}
+@media(max-width:650px){
+  .product-card img,.shop-card img{height:150px}
+  .product-card div,.shop-card div{padding:14px 12px 16px}
+}
+
+
+/* Precios de carta y productos para llevar */
+.price{
+  display:inline-block;
+  margin:8px 0 0;
+  padding:6px 10px;
+  background:#e7ddca;
+  border-left:3px solid #64704e;
+  color:#4a3928;
+  font-family:"DM Sans",sans-serif;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.25px;
+}
+.menu-item .price{margin-top:6px}
+@media(max-width:650px){
+  .price{font-size:12px;padding:5px 8px}
+}
+
+
+/* Ajuste final de carta: tarjetas completas y parejas */
+.flavors .product-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  align-items:stretch;
+  gap:24px;
+}
+.flavors .product-card{
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  min-width:0;
+  overflow:hidden;
+  background:#fbf5e9;
+  border:1px solid #d8c7aa;
+  border-radius:5px;
+  box-shadow:0 7px 18px rgba(66,47,28,.10);
+}
+.flavors .product-card img{
+  display:block;
+  width:100%;
+  height:205px;
+  flex:0 0 205px;
+  object-fit:cover;
+  border:0;
+  border-bottom:4px solid #b99a70;
+}
+.flavors .product-card div{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  flex:1;
+  min-height:150px;
+  padding:17px 18px 19px;
+  background:linear-gradient(180deg,#fffaf1 0%,#f0e5d2 100%);
+}
+.flavors .product-card h3{
+  margin:8px 0 6px;
+  color:#493523;
+  font:600 20px/1.22 "Playfair Display",serif;
+}
+.flavors .product-card p:not(.price){
+  margin:0;
+  color:#786a56;
+  font-size:11px;
+  line-height:1.6;
+}
+.flavors .product-card .price{
+  margin-top:auto;
+  padding:6px 10px;
+  background:#e5ddc9;
+  border-left:3px solid #68734e;
+  color:#493523;
+  font:700 13px "DM Sans",sans-serif;
+}
+@media(max-width:900px){
+  .flavors .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+}
+@media(max-width:600px){
+  .flavors .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .flavors .product-card img{height:145px;flex-basis:145px}
+  .flavors .product-card div{min-height:138px;padding:13px 12px 15px}
+  .flavors .product-card h3{font-size:16px}
+  .flavors .product-card p:not(.price){font-size:10px}
+  .flavors .product-card .price{font-size:12px;padding:5px 8px}
+}
+
+
+/* Alineación uniforme de precios en todas las tarjetas */
+.product-card > div,
+.shop-card > div{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+}
+.product-card h3,
+.shop-card h3{
+  min-height:2.45em;
+  display:flex;
+  align-items:flex-end;
+  margin-bottom:10px;
+}
+.product-card .price,
+.shop-card .price{
+  display:inline-flex;
+  align-items:center;
+  min-height:34px;
+  margin:0 0 9px;
+  white-space:normal;
+  line-height:1.35;
+  box-sizing:border-box;
+}
+.product-card p:not(.price),
+.shop-card p:not(.price){
+  margin-top:0;
+}
+@media(max-width:650px){
+  .product-card h3,
+  .shop-card h3{min-height:2.5em}
+  .product-card .price,
+  .shop-card .price{min-height:31px}
+}
+
+
+/* Logotipo ilustrado de Café Capacapi */
+.brand-icon{
+  width:56px;
+  height:56px;
+  flex:0 0 56px;
+  display:block;
+  overflow:hidden;
+  border-radius:50%;
+  background:transparent;
+  box-shadow:none;
+  border:0;
+  padding:0;
+}
+.brand-icon img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+@media(max-width:650px){
+  .brand-icon{width:48px;height:48px;flex-basis:48px}
+}
+
+/* Logotipo minimalista: grano de café en una sola línea */
+.brand-icon{
+  width:48px;
+  height:48px;
+  flex:0 0 48px;
+  display:block;
+  overflow:hidden;
+  border-radius:50%;
+  background:transparent;
+  border:0;
+  box-shadow:none;
+  padding:0;
+}
+.brand-icon img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+@media(max-width:650px){
+  .brand-icon{width:43px;height:43px;flex-basis:43px}
+}
+
+
+/* Identidad tipográfica: el nombre es el logotipo */
+.brand{
+  display:flex;
+  align-items:center;
+  gap:0;
+}
+.brand > span:last-child{
+  display:flex;
+  flex-direction:column;
+  gap:3px;
+}
+.brand b{
+  display:block;
+  color:#493523;
+  font-family:"Playfair Display",Georgia,serif;
+  font-size:25px;
+  font-weight:600;
+  letter-spacing:-.5px;
+  line-height:1.08;
+}
+.brand small{
+  display:block;
+  color:#8b765d;
+  font-size:10px;
+  letter-spacing:2.2px;
+  text-transform:uppercase;
+}
+@media(max-width:650px){
+  .brand b{font-size:21px}
+  .brand small{font-size:9px;letter-spacing:1.6px}
+}
+
+
+/* Corrección final de cabecera: marca únicamente tipográfica */
+.header .brand{
+  display:flex;
+  align-items:center;
+  gap:0;
+  text-decoration:none;
+}
+.header .brand::before,
+.header .brand::after{
+  content:none !important;
+  display:none !important;
+}
+.header .brand-icon,
+.header .brand > img{
+  display:none !important;
+}
+.header .brand b{
+  font-family:"Playfair Display",Georgia,serif;
+  font-size:25px;
+  font-weight:600;
+  color:#493523;
+  letter-spacing:-.4px;
+}
+.header .brand small{
+  color:#8b765d;
+  font-size:10px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+.flavors,.shop-section{
+  padding-bottom:58px;
+}
+.shop-section{
+  padding-top:62px;
+}
+
+/* Marca solo tipografica: sin circulo, icono ni pseudo-elementos */
+.header .brand, .footer .brand { display:flex; align-items:center; gap:0; }
+.header .brand::before, .header .brand::after,
+.footer .brand::before, .footer .brand::after { content:none !important; display:none !important; }
+.brand-icon, .brand img { display:none !important; }
+.header .brand b, .footer .brand b { color:#493523; font-family:'Playfair Display',Georgia,serif; font-weight:600; }
+.header .brand b { font-size:25px; letter-spacing:-.4px; }
+.header .brand small { color:#8b765d; font-size:10px; letter-spacing:2px; text-transform:uppercase; }
+.flavors .note, .shop-section .note { display:none !important; }
+/* Alinear contenido y precios de las tarjetas */
+.flavors .product-card > div {
+    display: grid;
+    grid-template-rows: 25px 65px 45px 1fr;
+    align-content: start;
+}
+
+.flavors .product-card h3 {
+    margin: 0;
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.flavors .product-card .price {
+    margin: 0;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.flavors .product-card p:not(.price) {
+    margin-top: 8px;
+}

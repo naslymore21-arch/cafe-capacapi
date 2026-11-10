@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Café Capacapi: café, sabores tradicionales y paisajes inspirados en Buenavista, Boyacá.">
+  <title>Café Capacapi | El sabor de nuestra tierra</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon-capacapi.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Café Capacapi, inicio">
+      
+      <span><b>Café Capacapi</b><small>El sabor de nuestra tierra</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="nav" aria-label="Menú principal">
+      <a href="#esencia">Nuestra esencia</a><a href="#cafe">Nuestro café</a>
+      <a href="#sabores">Menú</a><a href="#productos">Para vender</a><a href="#galeria">Galería</a><a href="#visita">Visítanos</a>
+    </nav>
+    <a class="header-link" href="#cafe">Descubrir <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="kicker"><span></span> BUENAVISTA · BOYACÁ</p>
+        <h1>Una pausa<br>entre montañas.</h1>
+        <p>El aroma del café, los sabores de nuestra tierra y la belleza de un paisaje que invita a quedarse.</p>
+        <div class="hero-buttons"><a class="btn btn-cream" href="#cafe">Conoce nuestro café</a><a class="under-link" href="#esencia">Nuestra inspiración ↓</a></div>
+      </div>
+      <div class="hero-caption">PAISAJES QUE INSPIRAN · SABORES QUE PERDURAN</div>
+    </section>
+
+    <section class="story section" id="esencia">
+      <div class="story-image">
+        <img src="img/decoracion-guacamayas.jpg" alt="Montañas de Buenavista cubiertas por la neblina">
+        <span class="image-stamp">Hecho con<br><b>identidad</b></span>
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow">NUESTRA ESENCIA</p>
+        <h2>La magia está<br>en <em>lo nuestro.</em></h2>
+        <p>Café Capacapi es una propuesta inspirada en Buenavista, Boyacá: en sus montañas, sus caminos, su gente y los pequeños momentos que se comparten alrededor de una taza.</p>
+        <p>Queremos reunir en un solo lugar el aroma del café y esos sabores tradicionales que nos hacen sentir en casa.</p>
+        <a class="inline-link" href="#galeria">Conoce nuestra inspiración <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="coffee-section section" id="cafe">
+      <div class="section-head">
+        <div><p class="eyebrow">EL PROTAGONISTA</p><h2>Un buen café,<br><em>sin afán.</em></h2></div>
+        <p>Del grano a la taza: una invitación a disfrutar el aroma y la calidez de nuestra tierra.</p>
+      </div>
+      <div class="coffee-feature">
+        <div class="coffee-photo"><img src="img/cafe-grano.jpg" alt="Granos de café tostados"></div>
+        <div class="coffee-detail">
+          <span class="round-mark">☕</span>
+          <h3>El aroma de nuestra tierra</h3>
+          <p>Disfruta el café en grano o molido y prepara en casa una pausa con sabor a montaña.</p>
+          <div class="coffee-products">
+            <div><img src="img/cafe-molido.jpg" alt="Empaque de café molido"><span>Café molido</span></div>
+            <div><img src="img/cafe-taza.jpg" alt="Taza de café caliente"><span>Café preparado</span></div>
+          </div>
+          <a class="btn btn-dark" href="#visita">Quiero conocer más</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="flavors section" id="sabores">
+      <div class="section-head">
+        <div><p class="eyebrow">PARA DISFRUTAR AQUÍ</p><h2>Nuestra carta,<br><em>hecha para compartir.</em></h2></div>
+        <p>Bebidas y preparaciones para disfrutar con calma, en un ambiente inspirado en nuestra tierra.</p>
+      </div>
+      <div class="product-grid menu-cards">
+        <article class="product-card">
+          <img src="img/tinto.png" alt="Café negro">
+          <div><small>BEBIDAS</small><h3>Café negro</h3><p class="price">$2.500</p><p>Una taza de café tradicional.</p></div>
+        </article>
+        <article class="product-card">
+          <img src="img/cafe.png" alt="Leche">
+          <div><small>BEBIDAS</small><h3>Café con leche</h3><p class="price">$4.000</p><p>Café suave y cremoso.</p></div>
+        </article>
+        <article class="product-card">
+          <img src="img/postre.jpg" alt="Postres">
+          <div><small>POSTRES</small><h3>Postres</h3><p class="price">$5.000</p><p>Un antojo dulce para acompañar tu pausa.</p></div>
+        </article>
+        <article class="product-card">
+          <img src="img/producto-generado-13.png" alt="Sorbete de fruta">
+          <div><small>BEBIDAS</small><h3>Sorbetes</h3><p class="price">$5.000</p><p>Bebidas frías y refrescantes.</p></div>
+        </article>
+        <article class="product-card">
+          <img src="img/jugoagua.jpg" alt="Bebida natural de fruta">
+          <div><small>BEBIDAS</small><h3>Jugos naturales</h3><p class="price">$4.500 en agua · $5.500 en leche</p><p>Preparados con frutas.</p></div>
+        </article>
+        <article class="product-card">
+          <img src="img/limon.png" alt="Leche">
+          <div><small>BEBIDAS</small><h3>Limonada</h3><p class="price">$4.000</p><p>Una bebida sencilla y fresca.</p></div>
+        </article>
+      
+        <article class="product-card">
+          <img src="img/producto-generado-08.png" alt="Helado artesanal">
+          <div><small>POSTRES</small><h3>Helados</h3><p class="price">$3.500</p><p>Una opción refrescante.</p></div>
+        </article>
+        <article class="product-card">
+          <img src="img/arepa.jpg" alt="Arepa tradicional">
+          <div><small>TRADICIÓN</small><h3>Arepa tradicional</h3><p class="price">$3.500</p><p>Un clásico que sabe a hogar.</p></div>
+        </article>
+        <article class="product-card">
+          <img src="img/producto-generado-09.png" alt="Chocolate caliente">
+          <div><small>BEBIDAS</small><h3>Chocolate</h3><p class="price">$4.500</p><p>Una bebida caliente y reconfortante.</p></div>
+        </article>
+        <article class="product-card">
+          <img src="img/producto-generado-11.png" alt="Aguapanela con panela">
+          <div><small>BEBIDAS</small><h3>Aguapanela</h3><p class="price">$2.500</p><p>El sabor tradicional de la panela.</p></div>
+        </article>
+        <article class="product-card">
+          <img src="img/masato.png" alt="Bebidas tradicionales">
+          <div><small>TRADICIÓN</small><h3>Masato</h3><p class="price">$3.500</p><p>Una bebida de tradición.</p></div>
+        </article>
+        <article class="product-card">
+          <img src="img/chorizo.jpg" alt="Chorizo">
+          <div><small>TRADICIÓN</small><h3>Chorizo</h3><p class="price">$7.000</p><p>Un acompañamiento lleno de sabor.</p></div>
+        </article>
+      </div>
+      
+    </section>
+
+    <section class="shop-section section" id="productos">
+      <div class="section-head">
+        <div><p class="eyebrow">PRODUCTOS PARA VENDER</p><h2>Para llevar<br><em>un pedacito de nuestra tierra.</em></h2></div>
+        <p>Productos para llevar a casa y compartir en familia.</p>
+      </div>
+      <div class="shop-grid market-cards">
+        <article class="shop-card">
+          <img src="img/cafe-molido.jpg" alt="Café molido">
+          <div><small>CAFÉ</small><h3>Café molido</h3><p class="price">$28.000 · 500 g</p><p>El aroma del café para preparar en casa.</p></div>
+        </article>
+        <article class="shop-card">
+          <img src="img/cafe-grano.jpg" alt="Café en pepa">
+          <div><small>CAFÉ</small><h3>Café en pepa</h3><p class="price">$27.000 · 500 g</p><p>Granos para moler y disfrutar frescos.</p></div>
+        </article>
+        <article class="shop-card">
+          <img src="img/panela.png" alt="Panela">
+          <div><small>DESPENSA</small><h3>Panela</h3><p class="price">$3.000 · unidad</p><p>Un ingrediente esencial de nuestra cocina.</p></div>
+        </article>
+        <article class="shop-card">
+          <img src="img/producto-generado-05.png" alt="Chocolate molido">
+          <div><small>DESPENSA</small><h3>Chocolate molido</h3><p class="price">$10.000 · 250 g</p><p>Para preparar una bebida tradicional.</p></div>
+        </article>
+        <article class="shop-card">
+          <img src="img/queso.png" alt="Queso">
+          <div><small>LÁCTEOS</small><h3>Queso</h3><p class="price">$12.000 · libra</p><p>Un clásico para compartir en la mesa.</p></div>
+        </article>
+        <article class="shop-card">
+          <img src="img/queso.jpg" alt="Cuajada">
+          <div><small>LÁCTEOS</small><h3>Cuajada</h3><p class="price">$10.000 · libra</p><p>Un producto suave y tradicional.</p></div>
+        </article>
+        <article class="shop-card">
+          <img src="img/mangos.jpg" alt="Frutas">
+          <div><small>FRUTAS</small><h3>Frutas</h3><p class="price">$4.000 · libra</p><p>Frutas frescas según disponibilidad.</p></div>
+        </article>
+        <article class="shop-card">
+          <img src="img/tarro.png" alt="Yogur artesanal">
+          <div><small>LÁCTEOS</small><h3>Yogur</h3><p class="price">$8.000 · litro</p><p>Una opción fresca para disfrutar.</p></div>
+        </article>
+        <article class="shop-card">
+          <img src="img/bocadillo.jpg" alt="Bocadillo">
+          <div><small>TRADICIÓN</small><h3>Bocadillo</h3><p class="price">$1.500 · unidad</p><p>El toque dulce de la tradición.</p></div>
+        </article>
+      </div>
+      
+    </section>
+
+    <section class="gallery section" id="galeria">
+      <div class="section-head">
+        <div><p class="eyebrow">UN LUGAR QUE INSPIRA</p><h2>Así se siente<br><em>Buenavista.</em></h2></div>
+        <p>Un vistazo a los paisajes y al ambiente que inspiran Café Capacapi.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="g-large"><img src="img/paisaje.png" alt="Peña y paisaje montañoso de Buenavista"><figcaption>La fuerza de nuestras montañas</figcaption></figure>
+        <figure><img src="img/local-1.jpg" alt="Interior acogedor del establecimiento"><figcaption>Un espacio para compartir</figcaption></figure>
+        <figure><img src="img/foto.png" alt="Decoración colorida del establecimiento"><figcaption>Detalles con personalidad</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="visit" id="visita">
+      <div class="visit-overlay"></div>
+      <div class="visit-content"><p class="eyebrow">TE ESPERAMOS</p><h2>Ven por un café.<br><em>Quédate por la magia.</em></h2><p>Café Capacapi · Inspirado en Buenavista, Boyacá.</p><a class="btn btn-cream" href="https://www.google.com/maps/search/?api=1&query=Buenavista+Boyac%C3%A1+Colombia" target="_blank" rel="noopener">Explorar Buenavista ↗</a></div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="#inicio"><span><b>Café Capacapi</b><small>El sabor de nuestra tierra</small></span></a><p>Un homenaje a los paisajes y sabores de Buenavista, Boyacá.</p><small>© 2026 Café Capacapi · Proyecto académico</small></footer>
+</body>
+</html>
